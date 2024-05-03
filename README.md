@@ -26,6 +26,7 @@ FinTracker is a comprehensive web application designed to help users manage thei
   - **Client-Side Storage**: Tokens are stored securely in HttpOnly cookies which are inaccessible via JavaScript to enhance security.
   - **Token Lifecycle Management**: Includes automated expiration and regeneration of tokens upon login to maintain session integrity.
   - **Rate Limiting**: Enforces limits on the number of requests a user can make within a given time frame to prevent abuse.
+    
 - **Secure Data Transfer with HTTPS**: Implements HTTPS to ensure all data transmitted between the web server and clients is encrypted, safeguarding against interception.
 - **OAuth Integration for Third-Party Authentication**: Enables users to log in using their existing accounts from supported third-party services, streamlining the authentication process and enhancing security.
 - **Database Password Management**: 
