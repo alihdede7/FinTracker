@@ -20,12 +20,14 @@ This is the backend part of the Expense Tracker Fullstack application, built usi
 
 ## Getting Started
 1. Clone the repository:
+```bash
    git clone https://github.com/alihdede7/FinTracker.git
-2. Navigate to the backend directory:
+```
+3. Navigate to the backend directory:
    cd FinTracker/backend
-3. Install dependencies:
+4. Install dependencies:
    npm install or yarn install
-4. Start the development server:
+5. Start the development server:
    npm start
    or
    yarn start
