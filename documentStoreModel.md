@@ -8,6 +8,8 @@
 - `email`: String
 - `password`: String (hashed for security)
 - `role`: String (e.g., "user" or "admin")
+- 'createdAt': DateTime
+- 'updatedAt': DateTime
 
 ## 2. Categories Collection
 
