@@ -29,10 +29,10 @@ This is the frontend part of the Expense Tracker Fullstack application, built us
 
 4. Start the development server:
    npm start
-   # or
+   or
    yarn start
 
-5. Open the application in your browser at http://localhost:3000.
+6. Open the application in your browser at http://localhost:3000.
 
 ## License
 
