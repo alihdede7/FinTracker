@@ -1,37 +1,48 @@
 # Expense Tracker Backend
 
 ## Introduction
-This is the backend part of the Expense Tracker Fullstack application, built using Node.js, Express, and MongoDB. The application provides a RESTful API for the frontend to interact with, handling user authentication, expense tracking, budgeting, and reporting.
+This is the backend part of the application, built using Node.js and Express. The backend is responsible for handling API requests, managing data storage, and ensuring secure and efficient communication between the client and server.
 
 ## Features
-- User authentication and authorization using JSON Web Tokens
-- Expense tracking with categorization and tagging
-- Budget creation and management
-- Report generation for income, expense, and balance
+- RESTful API design
+- Data validation and sanitization
 - MongoDB database integration for data storage
+- Secure data handling with environment variables
+- Error handling and logging
+- Postman collection included for API testing
 
 ## Technologies Used
-- Node.js 14.x
-- Express 4.x
-- MongoDB 3.x
-- Mongoose 5.x
-- JSON Web Tokens 8.x
-- Bcrypt 5.x
+- **Node.js**: JavaScript runtime built on Chrome's V8 JavaScript engine.
+- **Express.js**: Minimal and flexible Node.js web application framework.
+- **MongoDB**: NoSQL database for storing and managing application data.
+- **Mongoose**: ODM (Object Data Modeling) library for MongoDB and Node.js.
+- **dotenv**: To manage environment variables.
 
 ## Getting Started
-1. Clone the repository:
+1. **Clone the repository**:
 ```bash
    git clone https://github.com/alihdede7/FinTracker.git
 ```
-3. Navigate to the backend directory:
+2. **Navigate to the backend directory**:
+```bash
    cd FinTracker/backend
-4. Install dependencies:
-   npm install or yarn install
-5. Start the development server:
-   npm start
-   or
-   yarn start
+```
+4. **Install dependencies**:
+```bash
+   npm install
+```
+5. **Set up environment variables**:
+   1. Create a `.env` file in the root of the backend directory.
+   2. Add the following environment variables:
+      
+        - **PORT**=`your_port_number`
+        - **MONGO_URL**=`your_mongo_connection_string`
 
+   
+6. **Run the application**:
+```bash
+   npm start
+```
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
